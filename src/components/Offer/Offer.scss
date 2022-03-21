@@ -1,0 +1,51 @@
+.offer{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px;
+  &__title{
+    font-weight: 600;
+    font-size: 52px;
+    margin-bottom: 32px;
+  }
+  &__banner{
+    position: relative;
+    //height: 408px;
+    width: 100%;
+    background: url("./assets/Banner.png") no-repeat center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
+
+  &__info{
+    max-width: 312px;
+    &_title{
+      color: white;
+      font-size: 40px;
+      font-weight: 600;
+      margin-bottom: 26px;
+      line-height: 44px;
+    }
+    &_text{
+      color: white;
+      margin-bottom: 26px;
+    }
+    &_button{
+      border: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+    }
+  }
+}
+
+.offer__subtitle_pic{
+  //position: absolute;
+  //bottom: 0;
+  //right: 50px;
+  width: 50%;
+  //width: 708px;
+  //height: 448px;
+}

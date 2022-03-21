@@ -1,0 +1,60 @@
+.header{
+  background-color: white;
+  padding: 8px ;
+
+  &__offer_banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #7F56D9;
+    padding: 8px 24px;
+    border-radius: 4px;
+  }
+}
+
+.header__wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px;
+  //margin: 0 112px ;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header__title_layer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.header__place_mark{
+  display: flex;
+  align-items: center;
+}
+.header__place_mark_text{
+  margin-left: 15px;
+}
+
+.header__menu{
+  display: flex;
+  width: 103px;
+  justify-content: space-between;
+
+}
+
+.header__navigation{
+  border-top: 1px solid#EAECF0;
+  padding: 20px 0;
+}
+
+.navigation__list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+

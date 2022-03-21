@@ -1,0 +1,21 @@
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: calc((100% - 90px) / 4 );
+
+  }
+}
+
+.cards__button_wrapper{
+  border: 1px dashed #7F56D9;
+  width: calc((100% - 90px) / 4 );
+  min-height: 304px;
+}
+//.cards__pic{
+//  width: 25%;
+//}

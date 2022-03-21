@@ -1,0 +1,13 @@
+.swiper{
+  text-align: center;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+  color: white;
+  --swiper-navigation-size: 8px;
+}
+.swiper__slide{
+  color: white;
+  font-size: 16px;
+}
