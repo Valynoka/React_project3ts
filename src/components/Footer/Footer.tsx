@@ -59,7 +59,7 @@ const Footer = () => {
 						</li>
 					</ul>
 				</div>
-				<p>Copyright © GameVendor, 2022</p>
+				<p className={'footer__signature'}>Copyright © GameVendor, 2022</p>
 			</div>
 		</div>
 	)

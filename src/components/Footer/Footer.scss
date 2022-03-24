@@ -14,6 +14,30 @@
     border-bottom: 1px solid gray;
     margin-bottom: 58px;
   }
+  &__input_subtitle{
+    color: #98A2B3;
+  }
+}
+
+.footer__input_section{
+  input{
+    width: 40%;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    margin-right: 12px;
+  }
+  button{
+    padding: 8px 24px;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #7F56D9;
+    color: white;
+    cursor: pointer;
+  }
 }
 
 .footer__categories{
@@ -36,6 +60,7 @@
 }
 
 .footer__categories_title{
+  color: #98A2B3;
   margin-bottom: 24px;
 }
 
@@ -44,5 +69,10 @@
   flex-direction: column;
 }
 .footer__categories_links{
-  color: white;
+  color: #F2F4F7;
+  margin-bottom: 8px;
+}
+
+.footer__signature{
+  color: #667085;
 }

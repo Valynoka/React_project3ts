@@ -1,0 +1,17 @@
+.search{
+  &__label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  &__input{
+    width: 40%;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    margin-top: 12px;
+  }
+
+}

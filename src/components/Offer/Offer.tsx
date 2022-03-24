@@ -2,8 +2,8 @@ import React from "react";
 import Search from "../Search";
 import './Offer.scss';
 import Cards from "../Cards/Cards";
-import Accordion from "../../utils/Accordion";
 import Faq from "../FAQ";
+import {observer} from "mobx-react-lite";
 const welcome_pic =  require("./assets/welcome_pic.png")
 
 
@@ -22,7 +22,7 @@ const Offer = () => {
 				</div>
 				<div className={'offer__cards_section'}>
 					<div className={'offer__cards_search'}>
-						<Search/>
+						<Search search={""}/>
 					</div>
 					<Cards/>
 				</div>
@@ -32,4 +32,4 @@ const Offer = () => {
 	)
 }
 
-export default Offer;
+export default observer(Offer);
