@@ -4,8 +4,6 @@
     <list default="true" id="83b16fcd-3bd4-45a4-8d9a-ff3b5b7c6f9b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cards/Cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/Cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/DataStore/DataStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/DataStore/DataStore.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/gvinc_hw" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -77,7 +75,7 @@
       <workItem from="1647842160327" duration="1513000" />
       <workItem from="1647931387678" duration="21663000" />
       <workItem from="1648015535681" duration="10676000" />
-      <workItem from="1648105053091" duration="5547000" />
+      <workItem from="1648105053091" duration="8293000" />
     </task>
     <servers />
   </component>
