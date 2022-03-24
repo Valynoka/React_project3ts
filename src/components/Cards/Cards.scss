@@ -1,10 +1,13 @@
 .cards{
+  width: 100%;
   &__container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 32px;
     margin-bottom: 48px;
+    width: 100%;
+
 
   }
   &__wrapper{
@@ -13,6 +16,8 @@
     background-color: white;
     border-radius: 16px;
     padding: 12px;
+    min-width: 280px;
+
   }
   &__pic{
     width: 100%;

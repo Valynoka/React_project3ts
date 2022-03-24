@@ -17,20 +17,20 @@ class DataStore {
 	cards: CardsDataTypes[] = CardsData;
 	filteredCards: CardsDataTypes[] = CardsData;
 	question: QuestionSectionDataTypes[] = QuestionSectionData;
-	card: CardsDataTypes = this.resetCards();
+	filteredCard: CardsDataTypes = this.resetCards();
 
 	searchValue = '';
 
 	resetCards() {
 		return{
-			id: Math.max(0, Math.max(...this.cards.map(({id}) => id))) + 1,
+			id: Math.max(0, Math.max(...this.filteredCards.map(({id}) => id))) + 1,
 			type: 'cardsData',
 			picture: FarCry,
 			teg: "ActionRPG",
 			title: "New Game",
 			rating: "rating",
 			description: "description",
-			price: "1200",
+			price: "1200$",
 			sale: "50%"
 		}
 	}
@@ -45,8 +45,8 @@ class DataStore {
 	}
 
 	setNewCard(){
-		this.filteredCards.unshift(this.card);
-		this.card = this.resetCards()
+		this.filteredCards.unshift(this.filteredCard);
+		this.filteredCard = this.resetCards()
 	}
 
 
